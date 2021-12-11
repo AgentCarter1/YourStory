@@ -1,0 +1,15 @@
+C:\Users\burak\source\repos\Web-Odevi\YourStory.Entities\bin\Debug\YourStory.Entities.dll.config
+C:\Users\burak\source\repos\Web-Odevi\YourStory.Entities\bin\Debug\YourStory.Entities.dll
+C:\Users\burak\source\repos\Web-Odevi\YourStory.Entities\bin\Debug\YourStory.Entities.pdb
+C:\Users\burak\source\repos\Web-Odevi\YourStory.Entities\bin\Debug\EntityFramework.dll
+C:\Users\burak\source\repos\Web-Odevi\YourStory.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\burak\source\repos\Web-Odevi\YourStory.Entities\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\burak\source\repos\Web-Odevi\YourStory.Entities\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Users\burak\source\repos\Web-Odevi\YourStory.Entities\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\burak\source\repos\Web-Odevi\YourStory.Entities\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\burak\source\repos\Web-Odevi\YourStory.Entities\bin\Debug\EntityFramework.xml
+C:\Users\burak\source\repos\Web-Odevi\YourStory.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\burak\source\repos\Web-Odevi\YourStory.Entities\obj\Debug\YourStory.Entities.csproj.AssemblyReference.cache
+C:\Users\burak\source\repos\Web-Odevi\YourStory.Entities\obj\Debug\YourStory.Entities.csproj.CoreCompileInputs.cache
+C:\Users\burak\source\repos\Web-Odevi\YourStory.Entities\obj\Debug\YourStory.Entities.dll
+C:\Users\burak\source\repos\Web-Odevi\YourStory.Entities\obj\Debug\YourStory.Entities.pdb

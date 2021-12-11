@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>@ViewBag.Title</title>
+    <script src="https://kit.fontawesome.com/08c5ef2396.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap Core CSS -->
+
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- jQuery -->
+
+
+    <script src="Scripts/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+
+    <script src="Scripts/bootstrap.min.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .lead {
+            font-weight: bold;
+            margin-top: 8px;
+        }
+
+        .navbarAyir {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <div class="container">
+
+
+             <a class="navbar-brand" href="#"><b>Your Story</b></a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse navbarAyir" id="navbarNavAltMarkup">
+                 
+
+                 <ul class="nav navbar-nav">
+                     <li><a class="nav-item nav-link " href="#"><span><i class="fas fa-wrench"></i></span> Yönetim</a></li>
+                     <li><a class="nav-item nav-link" href="#"><span><i class="fas fa-star"></i></span> En Beğenilenler</a></li>
+                     <li><a class="nav-item nav-link" href="#"><span><i class="fas fa-align-justify"></i></span> Son Yazılanlar</a></li>
+                     <li><a class="nav-item nav-link" href="#"><span><i class="fas fa-info"></i></span> Hakkımızda</a></li>
+                 </ul>
+
+                     <ul class="nav navbar-nav">
+                         <li><a class="nav-item nav-link " href="#"> <span><i class="fas fa-sign-in-alt"></i></span> Giriş Yap</a></li>
+                         <li><a class="nav-item nav-link " href="#"><span><i class="fas fa-user"></i></span> Üye Ol</a></li>
+                         <li><a class="nav-item nav-link " href="#"><span><i class="fas fa-user"></i></span> burakAydiin</a></li>
+                         <li><a class="nav-item nav-link " href="#"><span><i class="fas fa-sign-out-alt"></i></span> Çıkış Yap</a></li>
+                     </ul>
+
+
+                 
+             </div>
+         </div>
+     </nav>
+   
+
+  
+
+    <!-- Page Content -->
+
+    <div class="container">
+
+        <div class="row">
+
+            @RenderBody()
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <p>Tüm Hakları Sakldıır &copy; @DateTime.Now.Year</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
