@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace YourStory.BusinessLayer
+namespace YourStory.DataAccessLayer.EntityFramework
 {
     public class Repository<T> : RepositoryBase  where T : class
     {

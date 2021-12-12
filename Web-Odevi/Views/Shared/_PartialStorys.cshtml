@@ -1,0 +1,73 @@
+﻿
+@using YourStory.BusinessLayer
+@using YourStory.DataAccessLayer
+@using YourStory.Entities
+@{
+    StoryManager cm = new StoryManager();
+    List<Story> list = cm.GetAllNote();
+}
+
+
+@foreach (Story story in list)
+{
+<div class="card col-sm-4 col-lg-4 col-md-4 m-1" style="width:20rem;">
+    <img src="~/Resimler/zyro-image.png"
+         class="card-img-top"
+         alt="Phone" />
+    <div class="card-body">
+        <h5 class="card-title">@story.Title <button type="button" class="btn float-end"><span><i class="far fa-star"></i></span></button></h5>
+
+
+        <h6 class="card-subtitle mb-2 text-muted"> <span><i class="far fa-clock"></i></span> @story.CreatedOn</h6>
+        <h6 class="card-subtitle mb-2 text-muted " style="margin-top:0.1rem;"> <span><i class="far fa-user"></i></span> @story.Owner.Username</h6>
+        <p class="card-text">
+
+            @if (story.Text.Length > 100)
+            {
+                // <p style="overflow:hidden; text-overflow:ellipsis; white-space:nowrap">@story.Text</p>
+            <p style="overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 7; ">@story.Text</p>
+        }
+
+
+            </p>
+            <hr />
+            <a href="#" class="btn float-end" data-toggle="modal" data-target="#exampleModalLong">Devam Et...</a>
+
+            <button type="button" class="btn "><span><i class="far fa-thumbs-up"></i></span></button>
+            <button type="button" class="btn "><span><i class="far fa-thumbs-down"></i></span></button>
+            <button type="button" class="btn "><span><i class="far fa-comments"></i></span></button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <p>
+                                <h5 class="modal-title" id="exampleModalLongTitle">@story.Title</h5>
+                            <p class="float-lg-end"><span><i class="far fa-user"></i></span> @story.Owner.Username</p>
+                            </p>
+                            <button type="button" class="close btn btn-danger" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            @story.Text
+                        </div>
+                        <hr />
+                        <div>
+
+                            <button type="button" class="btn float-start m-1"><span><i class="far fa-thumbs-up fa-2x"></i></span></button>
+                            <button type="button" class="btn float-start m-1"><span><i class="far fa-thumbs-down fa-2x"></i></span></button>
+                            <button type="button" class="btn btn-success float-end m-3" data-dismiss="modal">Close</button>
+                        </div>
+                        <!--<div class="modal-footer">
+
+
+                             </div>
+                            -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

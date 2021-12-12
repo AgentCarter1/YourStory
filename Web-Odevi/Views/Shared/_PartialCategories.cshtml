@@ -1,0 +1,18 @@
+﻿@using YourStory.BusinessLayer
+@using YourStory.DataAccessLayer
+@using YourStory.Entities
+@{ 
+    CategoryManager cm = new CategoryManager();
+    List<Category> list = cm.GetCategories();
+}
+
+
+<div class="list-group" style="position:fixed;">
+    <p class="lead">Kategoriler</p>
+    <a href="/Home/Index" class="list-group-item"><span><i class="fas fa-arrow-right"></i></span> Tümü</a>
+
+    @foreach (Category cat in list)
+    {
+        <a href="/Category/Select/@cat.Id" title="@cat.Description" class="list-group-item"><span><i class="fas fa-arrow-right"></i></span> @cat.Title</a>
+    }
+</div>

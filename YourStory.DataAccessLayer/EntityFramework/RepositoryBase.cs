@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace YourStory.BusinessLayer
+using System.Data.Entity;
+using YourStory.Entities;
+namespace YourStory.DataAccessLayer.EntityFramework
 {
     public class RepositoryBase
     {
-        protected static DataAccessLayer.DatabaseContext db;
+        protected static DatabaseContext db;
         private static object _lockSync = new object();
         protected RepositoryBase()
         {
@@ -22,7 +23,7 @@ namespace YourStory.BusinessLayer
                 {
                     if (db == null)
                     {
-                        db = new DataAccessLayer.DatabaseContext();
+                        db = new DatabaseContext();
                     }
                 }
                 

@@ -98,4 +98,3 @@ C:\Users\burak\source\repos\Web-Odevi\Web-Odevi\bin\YourStory.DataAccessLayer.pd
 C:\Users\burak\source\repos\Web-Odevi\Web-Odevi\bin\YourStory.DataAccessLayer.dll.config
 C:\Users\burak\source\repos\Web-Odevi\Web-Odevi\bin\FakeData.dll
 C:\Users\burak\source\repos\Web-Odevi\Web-Odevi\bin\FakeData.pdb
-C:\Users\burak\source\repos\Web-Odevi\Web-Odevi\obj\Debug\Web-Odevi.csproj.CopyComplete

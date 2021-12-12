@@ -17,3 +17,4 @@ C:\Users\burak\source\repos\Web-Odevi\YourStory.DataAccessLayer\obj\Debug\YourSt
 C:\Users\burak\source\repos\Web-Odevi\YourStory.DataAccessLayer\obj\Debug\YourStory.DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\burak\source\repos\Web-Odevi\YourStory.DataAccessLayer\obj\Debug\YourStory.DataAccessLayer.dll
 C:\Users\burak\source\repos\Web-Odevi\YourStory.DataAccessLayer\obj\Debug\YourStory.DataAccessLayer.pdb
+C:\Users\burak\source\repos\Web-Odevi\YourStory.DataAccessLayer\obj\Debug\YourStory.DataAccessLayer.csproj.CopyComplete

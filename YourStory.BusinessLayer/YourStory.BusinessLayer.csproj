@@ -53,10 +53,9 @@
     <Reference Include="Microsoft.Analytics.Types" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategoryManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository.cs" />
-    <Compile Include="RepositoryBase.cs" />
-    <Compile Include="Test.cs" />
+    <Compile Include="StoryManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\YourStory.DataAccessLayer\YourStory.DataAccessLayer.csproj">

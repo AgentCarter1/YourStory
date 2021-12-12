@@ -153,14 +153,12 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="favicon.ico" />
-    <Content Include="foto.jpg" />
-    <Content Include="foto2.png" />
-    <Content Include="foto3.png" />
-    <Content Include="Fotograflar\1.jfif" />
-    <Content Include="Fotograflar\2.jpg" />
-    <Content Include="Fotograflar\3.jpg" />
+    <Content Include="Resimler\1resim.png" />
+    <Content Include="Resimler\2resim.png" />
+    <Content Include="Resimler\3resim.png" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Resimler\zyro-image.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -216,6 +214,8 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\_LayoutTemel.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_PartialCategories.cshtml" />
+    <Content Include="Views\Shared\_PartialStorys.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -228,6 +228,10 @@
     <ProjectReference Include="..\YourStory.BusinessLayer\YourStory.BusinessLayer.csproj">
       <Project>{5d66723d-4df9-4fce-8b6b-1905b0c4e315}</Project>
       <Name>YourStory.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YourStory.DataAccessLayer\YourStory.DataAccessLayer.csproj">
+      <Project>{d63b7860-5326-4058-8c92-6ed9cf955111}</Project>
+      <Name>YourStory.DataAccessLayer</Name>
     </ProjectReference>
     <ProjectReference Include="..\YourStory.Entities\YourStory.Entities.csproj">
       <Project>{903c9761-a5ae-4add-bdd6-f699b748bb49}</Project>

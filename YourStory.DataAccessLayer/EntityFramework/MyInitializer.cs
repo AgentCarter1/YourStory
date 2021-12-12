@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
 using YourStory.Entities;
-namespace YourStory.DataAccessLayer
+namespace YourStory.DataAccessLayer.EntityFramework
 {
     public class MyInitializer : CreateDatabaseIfNotExists<DatabaseContext>
     {
