@@ -11,6 +11,10 @@ namespace Web_Odevi.Controllers
         public ActionResult Index()
         {
             YourStory.BusinessLayer.Test test = new YourStory.BusinessLayer.Test();
+            // test.Insert();
+            //test.Update();
+            //test.Delete();
+            test.CommentTest();
             return View();
         }
 

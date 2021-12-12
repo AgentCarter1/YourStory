@@ -20,4 +20,3 @@ C:\Users\burak\source\repos\Web-Odevi\YourStory.BusinessLayer\obj\Debug\YourStor
 C:\Users\burak\source\repos\Web-Odevi\YourStory.BusinessLayer\obj\Debug\YourStory.BusinessLayer.pdb
 C:\Users\burak\source\repos\Web-Odevi\YourStory.BusinessLayer\bin\Debug\FakeData.dll
 C:\Users\burak\source\repos\Web-Odevi\YourStory.BusinessLayer\bin\Debug\FakeData.pdb
-C:\Users\burak\source\repos\Web-Odevi\YourStory.BusinessLayer\obj\Debug\YourStory.BusinessLayer.csproj.CopyComplete
